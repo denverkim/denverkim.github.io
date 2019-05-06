@@ -1,1 +1,124 @@
-hello world
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>Bootstrap Theme Simply Me</title>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<style>
+.bg-1 {
+	background-color: #1abc9c;
+	color: #ffffff;
+}
+.bg-2 {
+	background-color: #474e5d;
+	color: #ffffff;
+}
+.bg-3 {
+	background-color: #ffffff;
+	color: #555555;
+}
+.bg-4 {
+	background-color: #2f2f2f;
+	color: #ffffff;	
+}
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+	color: #1abc9c;
+}
+body{
+	
+	font:20px "Montserrat", sans-serif;
+	line-height: 1.8;
+	color: #f5f6f7
+}
+p {
+	font-size: 16px;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button">
+			<span class="icon-bar"></span><span class="icon-bar"></span>
+			<span class="icon-bar"></span></button>
+			<a class="navbar-brand" href="#">Me</a> </div>
+		<div id="myNavbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#who">WHO</a></li>
+				<li><a href="#what">WHAT</a></li>
+				<li><a href="#where">WHERE</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div id="who" class="container-fluid bg-1 text-center">
+	<h3>Who Am I?</h3>
+	<p><img alt="Bird" class="img-responsive img-circle" style="display:inline" src="bird.jpg" /></p>
+	<p>I'm an adventurer</p>
+</div>
+<div id="what"class="container-fluid bg-2 text-center">
+	<h3>What Am I?</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis metus 
+	ac mauris consectetur imperdiet. Praesent lacinia nunc at mauris convallis ultrices. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia, nunc 
+	sed fermentum feugiat, purus dolor malesuada nisi, quis lacinia leo magna sed 
+	lacus. Cras eleifend mollis felis, id ultrices magna ornare a. Curabitur non 
+	turpis eros. Aliquam vitae sodales elit. Duis eu sem mollis, tincidunt velit 
+	ut, elementum ligula. Proin consequat vulputate cursus. Class aptent taciti 
+	sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla 
+	purus est, ullamcorper sodales luctus ut, pretium imperdiet diam. Vivamus sit 
+	amet suscipit ex. Maecenas tincidunt malesuada venenatis. Suspendisse porttitor 
+	aliquet felis, non rhoncus metus lacinia semper. Morbi pulvinar mollis purus, 
+	a elementum turpis tempus at. In molestie tellus a neque cursus euismod. </p>
+	<a class="btn btn-default btn-lg" href="#">
+	<span class="glyphicon glyphicon-search"></span>Search</a> </div>
+<div id="where"class="container-fluid bg-3 text-center">
+	<h3>Where To Find Me?</h3>
+	<div class="row">
+		<div class="col-sm-4">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+			eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>
+			<img alt="" class="img-responsive" height="300" src="birds1.jpg" width="350" /></p>
+		</div>
+		<div class="col-sm-4">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+			eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>
+			<img alt="" class="img-responsive" height="300" src="birds2.jpg" width="350" /></p>
+		</div>
+		<div class="col-sm-4">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>
+			<img alt="" class="img-responsive" height="300" src="birds3.jpg" width="350" /></p>
+		</div>
+	</div>
+</div>
+<footer class="container-fluid bg-4 text-center">
+<p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p></footer>
+</body>
+
+</html>
